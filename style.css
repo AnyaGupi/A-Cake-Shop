@@ -1,0 +1,90 @@
+#div1{
+    background-repeat: no repeat;
+    background-size: cover;
+}
+#div3{
+    background-color: transparent;
+    text-align: center;
+    font-size: 18px;
+}
+table{
+    width: 100%;
+    padding: 50px;
+}
+a{
+    color: darkred;
+    
+    font-size: 25px;
+}
+a:hover{
+    text-decoration: none;
+    color: lightcoral;
+}
+a:link,a:active,a:visited{
+    text-decoration: none;
+}
+h1{
+    font-size: 50px;
+    color: darkred;
+    text-align: center;
+    padding: 100px;
+}
+footer{
+    padding: 50px;
+}
+p{
+    font-size: 22px;
+    padding: 20px;
+    margin-bottom: 270px;
+}
+body{
+    background-image: linear-gradient(#F4F4F2,#E8E8E8,#BBBFCA,#495464)
+}
+form{
+    border: 1px solid black;
+    box-shadow: 2px 2px 8px gray;
+    padding: 20px;
+    margin: auto;
+    width: 400px;
+}
+.main{
+    position: relative;
+    width: 80%;
+}
+.img{
+    display: block;
+    height: 300px;
+    width: 300px;
+    border-radius: 20%;
+}
+.cake{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #BBBFCA;
+    overflow: hidden;
+    width: 0;
+    height: 100%;
+    transition: .5s ease;
+}
+.main:hover .cake{
+    width: 90%;
+    border-radius: 20%;
+}
+.detail{
+    font-weight: bold;
+    font-size: 20px;
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%,50%);
+    white-space: wrap;
+}
+table{
+    border-spacing: 20px;
+}
+img{
+    float: left;
+    margin: 5px;
+}
